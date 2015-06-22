@@ -1,0 +1,133 @@
+body {
+	font-family: Lato, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 10%;
+	width: 80%;
+	max-width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	line-height: 1em;
+}
+
+
+h1 {
+	font-size: 48pt;
+	color: #C00;
+	display: inline-block;
+}
+
+h1 a {
+	color: #C00;
+}
+
+h2 {
+	font-size: 24pt;
+	display: inline-block;
+}
+
+h3 {
+	font-size: 24pt;
+	color: #999;
+}
+
+p {
+	font-size: 16pt;
+}
+h4 {
+	font-size: 18pt;
+}
+
+h4 a {
+	font-size: 18pt;
+	font-weight: bold;
+	color: #C00;
+	float: right;
+	clear: both;
+}
+
+li {
+	font-size: 16pt;
+}
+
+hr {
+	clear: both;
+	margin-bottom: 30px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+	list-style: none;
+}
+
+nav li {
+    float: left;
+}
+
+header nav a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 19pt;
+	background-color: #000000;
+	margin: 0 2px 2px 0;
+	padding: 10px 26px;
+}
+
+.firstLetter {
+	font-size: 5em;
+	line-height: 1;
+	color: #999;
+	margin: -.1em .1em 0 -.1em;
+	vertical-align: text-bottom;
+	float: left;
+}
+.left {
+	float: left;
+	width: 60%;
+}
+.right {
+	float: right;
+	width: 30%;
+	padding-right: 3%;
+}
+
+.ad {
+	background-color: #CCC;
+	height: 250px;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "MS Serif", "New York", serif;
+	font-size: 36pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 125px;
+}
+
+.right ul li a {
+	color: #C00;
+}
+footer {
+	clear: both;
+	float: left;
+	font-size: 14pt;
+}
+footer nav a {
+	color: #C00;
+}
